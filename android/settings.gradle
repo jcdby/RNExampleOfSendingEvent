@@ -1,0 +1,3 @@
+rootProject.name = 'RNtestModule'
+
+include ':app'

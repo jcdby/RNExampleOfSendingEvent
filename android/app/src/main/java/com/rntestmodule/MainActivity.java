@@ -2,6 +2,8 @@ package com.rntestmodule;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
+import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.shell.MainReactPackage;
 
 import java.util.Arrays;
@@ -40,10 +42,5 @@ public class MainActivity extends ReactActivity {
       );
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
 
-
-    }
 }

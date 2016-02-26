@@ -29,7 +29,7 @@ class RNtestModule extends Component {
   }
 
   componentWillMount() {
-    var that = this;
+    // var that = this;
     DeviceEventEmitter.addListener('keyboardwillshow', function(e: Event){
       console.log("event happend" + " " +
       // JSON.stringify(arguments) +
